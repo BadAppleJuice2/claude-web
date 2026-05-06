@@ -6,7 +6,7 @@
 
 ### 报告问题
 
-通过 [GitHub Issues](https://github.com/BadAppleJuice2/claude-web/issues) 提交，请包含：
+通过 [GitHub Issues](https://github.com/JoyWay/claude-web/issues) 提交，请包含：
 - 问题描述和复现步骤
 - 预期行为 vs 实际行为
 - 环境信息（操作系统、Node.js/Python 版本等）
@@ -42,7 +42,7 @@
 ## 开发环境
 
 ```bash
-git clone https://github.com/BadAppleJuice2/claude-web.git
+git clone https://github.com/JoyWay/claude-web.git
 cd claude-web
 pip install -r examples/requirements.txt
 ```

@@ -1,7 +1,7 @@
 # Claude Web UI + DeepSeek
 
-[![CI](https://github.com/BadAppleJuice2/claude-web/actions/workflows/ci.yml/badge.svg)](https://github.com/BadAppleJuice2/claude-web/actions/workflows/ci.yml)
-[![Docker](https://github.com/BadAppleJuice2/claude-web/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/BadAppleJuice2/claude-web/actions/workflows/docker-publish.yml)
+[![CI](https://github.com/JoyWay/claude-web/actions/workflows/ci.yml/badge.svg)](https://github.com/JoyWay/claude-web/actions/workflows/ci.yml)
+[![Docker](https://github.com/JoyWay/claude-web/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/JoyWay/claude-web/actions/workflows/docker-publish.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 图形界面的 Claude Code，接入 DeepSeek 国内模型，无需科学上网，一键部署。
@@ -24,7 +24,7 @@
 
 ```bash
 # 下载并运行安装脚本
-curl -fsSL https://raw.githubusercontent.com/BadAppleJuice2/claude-web/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JoyWay/claude-web/main/install.sh | bash
 
 # 配置 API Key（只需一次）
 cd ~/claude-web-ui
@@ -42,7 +42,7 @@ cd ~/claude-web-ui
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/BadAppleJuice2/claude-web.git
+git clone https://github.com/JoyWay/claude-web.git
 cd claude-web
 
 # 2. 配置环境变量

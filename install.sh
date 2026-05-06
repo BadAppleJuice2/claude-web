@@ -161,7 +161,7 @@ main() {
     echo ""
     echo "=========================================="
     echo "  Claude Web UI + DeepSeek 一键安装"
-    echo "  https://github.com/BadAppleJuice2/claude-web"
+    echo "  https://github.com/JoyWay/claude-web"
     echo "=========================================="
     echo ""
 
