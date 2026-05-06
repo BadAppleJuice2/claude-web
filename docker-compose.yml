@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  claude-web-ui:
+    build: .
+    container_name: claude-web-ui
+    ports:
+      - "${PORT:-8765}:8765"
+    environment:
+      - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY}
+      - MODEL=${MODEL:-deepseek-chat}
+      - PORT=8765
+      - HOST=0.0.0.0
+    volumes:
+      - ./history:/app/history
+      - ./uploads:/app/uploads
+    restart: unless-stopped
